@@ -14,3 +14,14 @@ var formattedRole = HTMLheaderRole.replace("%data%", role);
 $("#header").prepend(formattedRole);
 $("#header").prepend(formattedName);
 
+var bio = {
+	"name" : "Loic",
+	"role" : "Web Developper",
+	"contact info" : "loic@nonnenmacher.co.uk",
+	"picture URL" : "images/me.jpg",
+	"welcome message" : "Web developper in the learning.",
+	"skills" : "Enthusiast, Customer-service, JS, People"
+}
+
+$("#header").append(bio.name);
+
